@@ -15,7 +15,7 @@ class CashRegister
   # binding.pry 
   if discount != 0 
   self.total * (@total - (self.total-discount.to_f/100)).to_i 
-  ""
+  "After the discount, the total comes to #{s"
   
   
     
